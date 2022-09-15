@@ -1,0 +1,9 @@
+- debug:
+    msg: I am an ansible linting issue!
+
+# - debug
+#     msg: I can cause the bad warning!
+
+- name: Bar
+  debug:
+    msg: Baz!

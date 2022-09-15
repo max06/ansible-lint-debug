@@ -1,0 +1,6 @@
+- name: Test
+  hosts: localhost
+  tasks:
+    - name: Including the bad role
+      ansible.builtin.include_role:
+        name: test
