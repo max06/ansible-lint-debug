@@ -12,7 +12,8 @@
 			"VARIANT": "3.10-bullseye",
 			// Options
 			"NODE_VERSION": "lts/*"
-		}
+		},
+		"target": "stage1"
 	},
 	// Configure tool-specific properties.
 	"customizations": {
